@@ -510,7 +510,7 @@ $app->get("/send_email", function ($request, $response) use ($userCollection) {
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'maitreyaguptaa@gmail.com'; // Your Gmail address
-            $mail->Password = 'atkx kvlg injl ilps'; // Your Gmail password (use an app-specific password if 2FA is enabled)
+            $mail->Password = 'krnl yeni jnsy iwgu'; // Your Gmail password (use an app-specific password if 2FA is enabled)
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
